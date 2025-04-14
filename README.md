@@ -39,6 +39,8 @@ You can install the required dependencies by running the following command:
 pip install -r requirements.txt
 ```
 
+```bash
+File Structure
 ├── data/
 │   └── food_data.csv               # Dataset file
 ├── notebooks/
@@ -49,7 +51,7 @@ pip install -r requirements.txt
 │   └── model.py                    # Model training and evaluation
 ├── requirements.txt                # List of project dependencies
 ├── README.md                       # Project documentation
-
+```
 
 ## Model Evaluation
 
@@ -93,9 +95,29 @@ Validation curves were plotted to assess how changes in model hyperparameters, s
 
 ## How to Run the Project
 
-1. **Clone the Repository**:
+1. **Clone the Repository:**
 
 ```bash
 git clone https://github.com/yourusername/food-classification.git
 cd food-classification
 ```
+
+2. **Install Dependencies:**
+```bash
+   pip install -r requirements.txt
+```
+
+3. **Run the Model Evaluation:**
+```bash
+python classification_of_food.py
+```
+4.   **View Results:**
+   - Check the console output for evaluation metrics such as accuracy, precision, recall, and F1 score.
+   - The confusion matrices for both models will also be displayed.
+       
+## Contributing
+Feel free to fork this repository, submit issues, or create pull requests. If you wish to contribute, please fork the repository and make changes in your branch. Once you're ready, submit a pull request for review.
+
+## License 
+This project is licensed under the MIT License - see the LICENSE file for details.
+
