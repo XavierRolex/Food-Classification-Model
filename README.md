@@ -1,4 +1,4 @@
-# Food Classification Model
+# Food Classification Model 
 
 ## Overview
 This project involves building a machine learning model to classify food items as either **healthy** or **unhealthy** based on various features. The classification task is performed using multiple machine learning algorithms, including Logistic Regression and Decision Tree Classifier. The project also includes hyperparameter tuning and model evaluation using cross-validation techniques to optimize the model's performance.
