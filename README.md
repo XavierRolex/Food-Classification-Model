@@ -37,6 +37,7 @@ You can install the required dependencies by running the following command:
 
 ```bash
 pip install -r requirements.txt
+```
 
 ├── data/
 │   └── food_data.csv               # Dataset file
@@ -97,3 +98,4 @@ Validation curves were plotted to assess how changes in model hyperparameters, s
 ```bash
 git clone https://github.com/yourusername/food-classification.git
 cd food-classification
+```
