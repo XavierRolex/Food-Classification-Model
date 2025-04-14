@@ -48,3 +48,52 @@ pip install -r requirements.txt
 │   └── model.py                    # Model training and evaluation
 ├── requirements.txt                # List of project dependencies
 ├── README.md                       # Project documentation
+
+
+## Model Evaluation
+
+The models were evaluated using the following metrics:
+- **Accuracy**: Measures the percentage of correct predictions.
+- **Precision**: Measures the proportion of positive predictions that are actually correct.
+- **Recall**: Measures the proportion of actual positive instances that were correctly predicted.
+- **F1 Score**: A weighted average of Precision and Recall.
+
+### Logistic Regression Results:
+- **Accuracy**: `0.XX`
+- **Precision**: `0.XX`
+- **Recall**: `0.XX`
+- **F1 Score**: `0.XX`
+
+### Decision Tree Classifier Results:
+- **Accuracy**: `0.XX`
+- **Precision**: `0.XX`
+- **Recall**: `0.XX`
+- **F1 Score**: `0.XX`
+
+## Hyperparameter Tuning
+
+- **Logistic Regression**: 
+  - Hyperparameters tuned include regularization strength (`C`), solver, and maximum iterations.
+  
+- **Decision Tree Classifier**: 
+  - Hyperparameters tuned include `max_depth`, `min_samples_split`, `min_samples_leaf`, and `ccp_alpha`.
+
+## Cross-Validation
+
+Cross-validation was performed for both models using 5-fold cross-validation to ensure the robustness of the models and prevent overfitting.
+
+## Learning Curves
+
+Learning curves were plotted to show the relationship between the training set size and model performance. The curves help in diagnosing whether the model is underfitting or overfitting.
+
+## Validation Curves
+
+Validation curves were plotted to assess how changes in model hyperparameters, specifically the maximum depth of the Decision Tree, affect model performance.
+
+## How to Run the Project
+
+1. **Clone the Repository**:
+
+```bash
+git clone https://github.com/yourusername/food-classification.git
+cd food-classification
