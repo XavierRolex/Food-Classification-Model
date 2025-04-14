@@ -37,3 +37,14 @@ You can install the required dependencies by running the following command:
 
 ```bash
 pip install -r requirements.txt
+
+├── data/
+│   └── food_data.csv               # Dataset file
+├── notebooks/
+│   └── preprocessing.ipynb         # Jupyter notebook for data preprocessing
+├── src/
+│   ├── create_database.py          # Script for creating the database
+│   ├── chatbot.py                  # Chatbot implementation
+│   └── model.py                    # Model training and evaluation
+├── requirements.txt                # List of project dependencies
+├── README.md                       # Project documentation
